@@ -10,8 +10,7 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
-		<script src="https://code.jquery.com/jquery-3.4.1.js"></script>
-		
+		<script src="https://code.jquery.com/jquery-3.4.1.js"></script>		
 	</head>
 	<body class="is-preload">
 
@@ -51,46 +50,38 @@
 								</section>
 
 								<!-- Content -->
-								<section>
-									<header class="main">
-										<h1>Elements</h1>
-									</header>
-
+								<section class="noBorder">									
 									<!-- Content -->
-										<h2 id="content">Sample Content</h2>
-										<p>민혜정, 김영준, 점집합을 위한 GPU기반 실시간 전역조명 렌더링 Praesent ac adipiscing ullamcorper semper ut amet ac risus. Lorem sapien ut odio odio nunc. Ac adipiscing nibh porttitor erat risus justo adipiscing adipiscing amet placerat accumsan. Vis. Faucibus odio magna tempus adipiscing a non. In mi primis arcu ut non accumsan vivamus ac blandit adipiscing adipiscing arcu metus praesent turpis eu ac lacinia nunc ac commodo gravida adipiscing eget accumsan ac nunc adipiscing adipiscing lorem ipsum dolor sit amet nullam veroeros adipiscing.</p>
-										<div class="row">
-											<div id="news-container" class="col-6 col-12-small">
-												<h3>Sem turpis amet semper</h3>
-												<p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat commodo eu sed ante lacinia. Sapien a lorem in integer ornare praesent commodo adipiscing arcu in massa commodo lorem accumsan at odio massa ac ac. Semper adipiscing varius montes viverra nibh in adipiscing blandit tempus accumsan.</p>
-											</div>
-											<script>
-												$(document).ready(function(){ 
-													$("#news-container").load("news/news-list.html");
-                									//document.getElementById("news-container").innerHTML= '<object type="text/html" data="news/news-list.html" ></object>'; 
-                								}); 
-                							</script>
-											<div class="col-6 col-12-small">
-												<h3>Magna odio tempus commodo</h3>
-												<p>In arcu accumsan arcu adipiscing accumsan orci ac. Felis id enim aliquet. Accumsan ac integer lobortis commodo ornare aliquet accumsan erat tempus amet porttitor. Ante commodo blandit adipiscing integer semper orci eget. Faucibus commodo adipiscing mi eu nullam accumsan morbi arcu ornare odio mi adipiscing nascetur lacus ac interdum morbi accumsan vis mi accumsan.</p>
-											</div>
-											<!-- Break -->
-											<div class="col-4 col-12-medium">
-												<h3>Interdum sapien gravida</h3>
-												<p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing blandit.</p>
-											</div>
-											<div class="col-4 col-12-medium">
-												<h3>Faucibus consequat lorem</h3>
-												<p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing blandit.</p>
-											</div>
-											<div class="col-4 col-12-medium">
-												<h3>Accumsan montes viverra</h3>
-												<p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing blandit.</p>
-											</div>
+									<header class="main">
+										<h2 >News</h2>
+									</header>
+										
+									<div class="row">
+										<div id="news-container" class="col-12-small">												
+											<ul id="recent-news">	
+					                    	<!--KEEP 3 items here-->				                      	
+						                        <li>
+						                        	Heajung Min and Minyoung Kim got the best paper award at the annual Korean computer graphics conference (KCGS21) for their work on <a href="../files/award_heajung.pdf">Real-time Global Illumination for Point Sets using GPUs</a> and <a href="../files/award_minyoung.pdf">Haptic Interfaces for Tangible Digital Painting in VR</a>
+						                        </li>					                        
+						                        <li> 
+						                        	Jungmin Kim, Jisu Kim got <a href="../files/kinetic_projection_mapping_award.pdf">the best paper award at the annual Korean computer graphics conference (KCGS21)</a> for their work on physics-based surface deformation for kinetic projection mapping
+						                        </li>
+						                        <li> 
+						                        	Yaesol Kim's work on <a href="http://graphics.ewha.ac.kr/hwall/">Encountered-type Haptic Display for Large VR Environment using Per-plane Reachability Maps</a> appeared as <a href="https://doi.org/10.1002/cav.1845">the cover image of <i>Computer Animation and Virtual Worlds</i>, Vol 29, Issue 3-4, 2018</a>
+						                        </li>
+					                   		</ul>
 										</div>
+										<script>
+											$(document).ready(function(){ 
+												$("#news-container").load("news/index.html #recent-news");
+												//$("#publication-container").load("publications/index.html #recent-pub");
+            								}); 
+            							</script>
+            						</div>											
+										
 									</section>
 							<!-- Section -->
-								<section>
+								<section class="noBorder">
 									<header class="main">
 										<h2>Erat lacinia</h2>
 									</header>
