@@ -193,7 +193,9 @@ h6 {
     font-size: 1.5em; }
   h3 {
     font-size: 1.1em; } }
-
+.white{
+  color:rgba(240,240,240,1);
+}
 sub {
   font-size: 0.8em;
   position: relative;
@@ -2361,7 +2363,7 @@ button,
     -ms-flex: 1;
     flex: 1;
     margin-bottom: 0; }
-  #header .logo {
+  #header .logo {   
     border-bottom: 0;
     color: inherit;
     font-family: "Roboto Slab", serif;
@@ -2371,19 +2373,22 @@ button,
     margin-bottom: 0;
     height: 3em;}
   #header .icons {
+    padding-top: 1em;
+    padding-right:1em; 
     text-align: right; }
   @media screen and (max-width: 1680px) {
     #header {
       padding-top: 5em; } }
   @media screen and (max-width: 736px) {
     #header {
-      padding-top: 6.5em; }
+      padding-top: 5.5em; }
       #header .logo {
         font-size: 1.25em;
         margin: 0; }
       #header .logo img{
          height: 2em;}
       #header .icons {
+        padding-top: 5em; 
         height: 5em;
         line-height: 5em;
         position: absolute;

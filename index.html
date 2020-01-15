@@ -23,7 +23,7 @@
 
 							<!-- Header -->
 								<header id="header">
-									<a href="index.html" class="logo">
+									<a href="index.html" class="logo ">
 										<img src="images/logo_dark.png" >
 									</a>
 									<ul class="icons" >								
@@ -44,6 +44,13 @@
 						</div>
 
 						<div class = "inner">
+
+							<section id="slider">
+								<div>hello1</div>
+								<div>hello2hello2</div>
+								<div>hello3hello3hello3</div>
+							</section>
+							
 							<section>
 							
 							<!-- Content -->
@@ -53,8 +60,9 @@
 											<span class="image fit">
 												<div class="cover"></div>	
 												<img src="images/pic01.jpg" alt="" />													
-												<h3 class="content">Collision Detection</h3>
+												<h3 class="content">Collision Detection</h3>												
 											</span>
+
 										</div>
 
 										<div class="col-3  col-6-small">
@@ -116,23 +124,27 @@
 						<div class=" mainMenu">
 								
 								<section id="one" class="tiles">
+								
 								<article>
-									
+									<span class="image">
+										<img src="images/pic01.jpg" alt="" />
+									</span>
 									<header class="major">
-										<h3><a href="people/index.html" class="link"><span class="image">
-										<img src="images/pic02.jpg"  />
-									</span>People</a></h3>
+										<h3 class="white">People</a></h3>
 										<p>more</p>
 									</header>
+									<a href="people/index.html" class="link primary"></a>
 								</article>
 								<article>
 									<span class="image">
 										<img src="images/pic01.jpg" alt="" />
 									</span>
 									<header class="major">
-										<h3><a href="news/index.html" class="link">News</a></h3>
-										<p>more</p>
+										<h3 class="white">News</a></h3>
+										<p >more</p>
+										<div class="news-container"></div>
 									</header>
+									<a href="news/index.html" class="link primary"></a>
 								</article>
 								
 								<article>
@@ -140,18 +152,20 @@
 										<img src="images/pic03.jpg" alt="" />
 									</span>
 									<header class="major">
-										<h3><a href="publications/index.html" class="link">Publications</a></h3>
+										<h3 class="white">Publications</a></h3>
 										<p>more</p>
 									</header>
+									<a href="publications/index.html" class="link primary"></a>
 								</article>
 								<article>
 									<span class="image">
 										<img src="images/pic04.jpg" alt="" />
 									</span>
 									<header class="major">
-										<h3><a href="projects/index.html" class="link">Projects</a></h3>
+										<h3 class="white">Projects</h3>
 										<p>more</p>
 									</header>
+									<a href="projects/index.html" class="link primary"></a>
 								</article>	
 													
 							</section>
@@ -208,6 +222,11 @@
 			</div>
 
 		<!-- Scripts -->
+		 	<script>
+	         $(document).ready(function(){ 
+	         	document.getElementById("news-container").innerHTML= '<object type="text/html" data="testslider.html" ></object>'; 
+	         }); 
+		    </script>
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/browser.min.js"></script>
 			<script src="assets/js/breakpoints.min.js"></script>
