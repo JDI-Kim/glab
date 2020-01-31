@@ -1,7 +1,8 @@
 /* [SLIDER] */
+
 #slider,  #slider .slide{
-  width: 500px;
-  height: 250px;
+  width: 10px;
+  height: 500px;
 }
 #slider {
   overflow: hidden;
@@ -20,7 +21,20 @@
   box-sizing: border-box;
   padding: 10px 20px;
 }
+@media screen and (max-width: 1680px) {
+}
+@media screen and (max-width: 1280px) {
 
+}
+@media screen and (max-width: 980px) {
+
+}
+@media screen and (max-width: 736px) {
+
+}
+@media screen and (max-width: 480px) {
+}
+  
 /* [ANIMATION] */
 @keyframes slide-animation {
   0% { 

@@ -1301,6 +1301,7 @@ input[type="radio"] + label:before {
   }
   .image .content{
     position: absolute;
+    width:90%;
     top:50%;
     left:50%;
     transform: translate(-50%,-50%);
@@ -2133,7 +2134,52 @@ button,
 #slider .slide a{
   color:rgba(255,255,255);
 }
+@media screen and (max-width: 1680px) {
+  #slider .slide {
+    height: 250px;
+  }
+  #slider .container {
+    animation: slide-animation 12s infinite;
+  }
+}
+@media screen and (max-width: 1280px) {
+  #slider .slide {
+    height: 250px;
+  }
 
+  #slider .container {
+    animation: slide-animation 12s infinite;
+  }
+}
+@media screen and (max-width: 980px) {
+  #slider .slide {
+    height: 250px;
+    animation: slide-animation 0s infinite;
+
+  }
+
+  #slider .container {
+    animation: slide-animation 12s infinite;
+  }
+}
+@media screen and (max-width: 736px) {
+  #slider .slide {
+    height: 0px;
+  }
+
+  #slider .container {
+    animation: slide-animation 0s infinite;
+  }
+}
+@media screen and (max-width: 480px) {
+  #slider .slide {
+    height: 0px;
+  }
+
+  #slider .container {
+    animation: slide-animation 0s infinite;
+  }
+}
 /* [ANIMATION] */
 @keyframes slide-animation {
   0% { 
@@ -2157,6 +2203,11 @@ button,
   100% {
     opacity: 0;
     bottom: 200%;
+  }
+}
+@keyframes slide-animation-small{
+  0%{
+
   }
 }
 /* Wrapper */
