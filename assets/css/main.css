@@ -157,7 +157,7 @@ h1 {
 h2 {
   color: rgba(0, 49, 39, 0.85);
   margin-left: 0.25em;
-
+  margin-top: 1em;
   font-size: 1.75em; }
 
 h3 {
@@ -1334,7 +1334,9 @@ ul {
   margin: 0 0 2em 0;
   padding-left: 2em; }
   ul li {
-    padding-left: 0.5em; }
+    padding-left: 0.5em;
+    padding-bottom: 0.25em;
+    padding-top:0.25em; }
   ul.alt {
     list-style: none;
     padding-left: 0; }
