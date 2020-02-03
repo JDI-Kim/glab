@@ -1,3 +1,15 @@
+Final Editor: Jisu Kim @ GLAB
+Final Update: 2020-02-03
+
+
+News Slider reference: https://code-boxx.com/responsive-pure-css-text-slider
+
+	- When you update the News, please update the Homepages as well.
+	- The News slider on Homepage shows 3 recent news.
+	- If you want to add more slides on it, you should modify the timings of "slide-animation" in assets/css/main.css. 
+
+
+------------------------------------------------------------------------------------
 Editorial by HTML5 UP
 html5up.net | @ajlkn
 Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
