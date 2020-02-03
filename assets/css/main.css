@@ -1844,7 +1844,7 @@ button,
 
 
         .tiles article {
-          padding-left: 2em;
+          padding: 2em;
           height: 20em;
           width: 100% !important;
         }
