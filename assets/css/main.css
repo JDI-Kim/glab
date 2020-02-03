@@ -1822,7 +1822,7 @@ button,
     @media screen and (max-width: 736px) {
 
       .tiles article {
-                padding: 4em 3em 2em 3em ;
+        padding: 4em 3em 2em 3em ;
 
         height: 16em;
         max-height: none;
@@ -1844,7 +1844,7 @@ button,
 
 
         .tiles article {
-          padding: 2em;
+          padding-left: 2em;
           height: 20em;
           width: 100% !important;
         }
@@ -2168,6 +2168,12 @@ button,
 
 #slider .slide a{
   color:rgba(255,255,255);
+}
+@media screen and (max-width: 480px) {
+  #slider,  #slider .slide{
+    padding-left:  1em;
+  }
+
 }
 
 /* [ANIMATION] */
