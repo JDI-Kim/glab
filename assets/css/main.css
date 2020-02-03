@@ -1294,12 +1294,18 @@ input[type="radio"] + label:before {
     .image.main img {
       width: 100%; }
   .image .cover{
+     border-radius: 0.375em;
      position: absolute;
      height: 100%;
      width: 100%;
-     background-color: rgba(255, 255, 255, 0.5);                                                                 
+     background-color: rgba(230, 230, 230, 0.5);                                                                 
      z-index:2;
   }
+  .image:hover .cover{
+     border-radius: 0.375em;
+     background-color: rgba(20, 20, 20, 0.5);  
+  }
+
   .image .content{
     position: absolute;
     width:90%;
@@ -1308,6 +1314,9 @@ input[type="radio"] + label:before {
     transform: translate(-50%,-50%);
     text-align: center;
     z-index:3; }
+    .image:hover .content{
+      color:rgb(255,255,255);
+    }
 
 a.image {
   overflow: hidden; }
