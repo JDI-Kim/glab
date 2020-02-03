@@ -2001,18 +2001,27 @@ button,
       align-items: center ; 
       justify-content: center;
       text-align: center;
+      margin-top: 2em;
     }
     .features article .image img{
       padding: 0;
       margin:0;
     }
      .features article .content h3{
-      padding-top:1em;
+      margin-top:1em;
+    }
+    .features article .content p{
+      margin: 1em;
     }
     .features article .content ul{
       align-items: center;
       justify-content: center;
       padding: 0;
+      margin:0;
+    }
+    .features article .content ul li{
+       
+      padding: 0em 0.5em 0.5em 0.5em;
       margin:0;
     }
       .features article .icon {
