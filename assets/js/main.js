@@ -259,8 +259,8 @@
 
 			});
 				/*Jisu added for auromatic load of news in homepage*/
-	$(document).ready(function(){
+	/*$(document).ready(function(){
 		$('#container').load('../../news/index.html');
-	});
+	});*/
 
 })(jQuery);
