@@ -1822,6 +1822,8 @@ button,
     @media screen and (max-width: 736px) {
 
       .tiles article {
+                padding: 4em 3em 2em 3em ;
+
         height: 16em;
         max-height: none;
         min-height: 0;
@@ -1840,9 +1842,17 @@ button,
         display: block;
       }
 
+
         .tiles article {
+          padding: 2em;
           height: 20em;
           width: 100% !important;
+        }
+        .tiles article header{
+          margin:0;
+        }
+        .tiles article h3 {
+          font-size: 1.5em;
         }
 
     }
