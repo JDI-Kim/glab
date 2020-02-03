@@ -1979,7 +1979,7 @@ button,
             height: 6em;
             margin: -3em 0 0 -3em;
             width: 6em; } }
-  @media screen and (max-width: 80px) {
+  @media screen and (max-width: 480px) {
     .features article {
       -moz-flex-direction: column;
       -webkit-flex-direction: column;
@@ -1988,7 +1988,22 @@ button,
       -moz-align-items: -moz-flex-start;
       -webkit-align-items: -webkit-flex-start;
       -ms-align-items: -ms-flex-start;
-      align-items: flex-start; 
+      align-items: center ; 
+      justify-content: center;
+      text-align: center;
+    }
+    .features article .image img{
+      padding: 0;
+      margin:0;
+    }
+     .features article .content h3{
+      padding-top:1em;
+    }
+    .features article .content ul{
+      align-items: center;
+      justify-content: center;
+      padding: 0;
+      margin:0;
     }
       .features article .icon {
         height: 6em;
@@ -2001,6 +2016,7 @@ button,
           height: 4em;
           margin: -2em 0 0 -2em;
           width: 4em; } }
+    }
   @media screen and (max-width: 480px) {
     .features article .icon:before {
       font-size: 1.25rem; } }
