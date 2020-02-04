@@ -1,8 +1,26 @@
-Final Editor: Jisu Kim @ GLAB
-Final Update: 2020-02-03
+Designed by Jisu Kim @GLAB
 
+[+] Please add updates here and modify the footer.html for the "Last updated date".
 
-News Slider reference: https://code-boxx.com/responsive-pure-css-text-slider
+------------------------------------------------------------------------------------
+Update by  : Jisu
+Update Date: 2020-02-04
+Update Note:
+
+	Footer and header has been separated as independent html files.
+
+	- Footer and header will not be appeared on the local system.
+	- It will be shown on the client browser after upload teh files to the server.
+	- Now you can modify the Last Updated Date "ONLY ONCE" in the footer.html.
+
+	** sidebar is not separated yet
+
+------------------------------------------------------------------------------------
+Update by  : Jisu
+Update Date: 2020-02-03
+Update Note:
+
+	News Slider reference: https://code-boxx.com/responsive-pure-css-text-slider
 
 	- When you update the News, please update the Homepages as well.
 	- The News slider on Homepage shows 3 recent news.
