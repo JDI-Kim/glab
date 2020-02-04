@@ -32,3 +32,4 @@ function includeHTML(callback) {
   setTimeout(function() {
     callback();
   }, 0);
+}
