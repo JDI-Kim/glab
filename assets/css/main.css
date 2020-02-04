@@ -2627,17 +2627,16 @@ text-align: center;
 
   margin-top:2em;
 }
-#footer .homepage{
-  border: none;
-  background-color: rgb(0,50,40);
-  margin: 0em;
-
-} 
+ 
   #footer .copyright a {
     color: inherit; }
     #footer .copyright p {
     margin-bottom: 0; }
-
+.homepage #footer .copyright {
+  border: none;
+  background-color: rgb(0,50,40);
+  margin: 0em;
+}
 /* Menu */
 #menu ul {
   -moz-user-select: none;
