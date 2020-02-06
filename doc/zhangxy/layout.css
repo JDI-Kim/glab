@@ -1,0 +1,78 @@
+BODY {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 13px; BACKGROUND: #e2e2e2; PADDING-BOTTOM: 0px; MARGIN: 0px auto; PADDING-TOP: 0px; FONT-FAMILY: sans-serif, Tahoma, Verdana, Arial; TEXT-ALIGN: justify
+}
+.rp {
+	COLOR: #97273c
+}
+.bp {
+	COLOR: #345c88
+}
+.gp {
+	COLOR: #aaaaaa
+}
+.btitle {
+	FONT-WEIGHT: 900; FONT-SIZE: 18px; COLOR: #345c88; FONT-FAMILY: trebuchet MS, trebuchet, Arial, sans-serif, Verdana, Tahoma
+}
+A:link {
+	FONT-WEIGHT: normal; COLOR: #345c88; LETTER-SPACING: 0px; TEXT-DECORATION: none
+}
+A:visited {
+	FONT-WEIGHT: normal; COLOR: #345c88; LETTER-SPACING: 0px; TEXT-DECORATION: none
+}
+A:active {
+	FONT-WEIGHT: normal; COLOR: #345c88; LETTER-SPACING: 0px; TEXT-DECORATION: none
+}
+A:hover {
+	FONT-WEIGHT: normal; COLOR: #97273c; LETTER-SPACING: 0px; TEXT-DECORATION: underline
+}
+HR {
+	BORDER-TOP-WIDTH: 1px; COLOR: #cccccc; HEIGHT: 0px
+}
+P {
+	MARGIN: 0px
+}
+#menu {
+	BORDER-TOP-WIDTH: 0px; PADDING-RIGHT: 0px; PADDING-LEFT: 2px; BORDER-LEFT-WIDTH: 0px; BACKGROUND: #163256; PADDING-BOTTOM: 0px; PADDING-TOP: 2px; HEIGHT: 17px; BORDER-RIGHT-WIDTH: 0px
+}
+#menu .text {
+	FONT-SIZE: 8pt; COLOR: #fff; TEXT-INDENT: 2pt; FONT-FAMILY: tahoma, arial, halvatica; TEXT-ALIGN: justify
+}
+#menu A {
+	FONT-WEIGHT: normal; COLOR: #fff; TEXT-DECORATION: none
+}
+#banner {
+	BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; BACKGROUND: #5c6f9c; HEIGHT: 65px; BORDER-RIGHT-WIDTH: 0px
+}
+#header {
+	MARGIN: 0px auto; WIDTH: 720px; TEXT-ALIGN: center
+}
+#content-border {
+	PADDING-RIGHT: 1px; PADDING-LEFT: 1px; BACKGROUND: #cccccc; PADDING-BOTTOM: 1px; MARGIN: 0px auto; WIDTH: 662px; PADDING-TOP: 1px
+}
+#content {
+	PADDING-RIGHT: 40px; PADDING-LEFT: 40px; BACKGROUND: #f9f9f6; PADDING-BOTTOM: 40px; MARGIN: 0px auto; WIDTH: 640px; PADDING-TOP: 40px
+}
+#title-border {
+	PADDING-RIGHT: 1px; PADDING-LEFT: 1px; BACKGROUND: #cccccc; PADDING-BOTTOM: 0px; MARGIN: 0px auto; WIDTH: 662px; PADDING-TOP: 1px
+}
+#title {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 25px; BACKGROUND: #99aece; PADDING-BOTTOM: 0px; MARGIN: 0px auto; WIDTH: 720px; COLOR: #ffffff; PADDING-TOP: 25px; FONT-FAMILY: trebuchet MS, trebuchet, Verdana, Helvetica, Arial; HEIGHT: 50px; TEXT-ALIGN: center
+}
+.paragraphbox {
+	BORDER-TOP-WIDTH: 0px; PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; FONT: 12px trebuchet MS, trebuchet, sans-serif, Tahoma, Verdana, Arial; WIDTH: 100%; PADDING-TOP: 0px; TEXT-ALIGN: justify; BORDER-RIGHT-WIDTH: 0px
+}
+#paragraphbox A {
+	FONT-WEIGHT: bold; COLOR: #345c88; TEXT-DECORATION: none
+}
+#infobox-border {
+	PADDING-RIGHT: 1px; PADDING-LEFT: 1px; BACKGROUND: #cccccc; PADDING-BOTTOM: 1px; MARGIN: 0px auto; WIDTH: 582px; PADDING-TOP: 1px
+}
+.infobox {
+	BORDER-TOP-WIDTH: 0px; PADDING-RIGHT: 15px; PADDING-LEFT: 15px; BORDER-LEFT-WIDTH: 0px; BACKGROUND: #f5f5f2; BORDER-BOTTOM-WIDTH: 0px; PADDING-BOTTOM: 15px; MARGIN: 0px; FONT: 0.85em Verdana, Helvetica, Arial; WIDTH: 610px; PADDING-TOP: 15px; TEXT-ALIGN: left; BORDER-RIGHT-WIDTH: 0px
+}
+.imagebox {
+	BORDER-TOP-WIDTH: 0px; PADDING-RIGHT: 15px; PADDING-LEFT: 15px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; PADDING-BOTTOM: 15px; MARGIN: 15px; WIDTH: 150px; PADDING-TOP: 15px; BACKGROUND-COLOR: #f5f5f2; TEXT-ALIGN: left; BORDER-RIGHT-WIDTH: 0px
+}
+.linkbox {
+	BORDER-TOP-WIDTH: 0px; PADDING-RIGHT: 5px; PADDING-LEFT: 5px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; PADDING-BOTTOM: 5px; MARGIN: 5px 15px; FONT: 0.85em Verdana, Helvetica, Arial; WIDTH: 600px; PADDING-TOP: 5px; BACKGROUND-COLOR: #f5f5f2; TEXT-ALIGN: left; BORDER-RIGHT-WIDTH: 0px
+}
