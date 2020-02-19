@@ -1,4 +1,4 @@
-# Ewha Computer Graphics Lab Homepage Code
+# Ewha Computer Graphics Lab Homepage 
 Designed by Jisu Kim @GLAB
 
 [+] Please add updates here and modify the footer.html for the "Last updated date".
@@ -14,7 +14,7 @@ Designed by Jisu Kim @GLAB
 	- It will be shown on the client browser after upload teh files to the server.
 	- Now you can modify the Last Updated Date "ONLY ONCE" in the footer.html.
 
-	** sidebar is not separated yet
+	*sidebar is not separated yet*
 
 ------------------------------------------------------------------------------------
 * Update by  : Jisu
