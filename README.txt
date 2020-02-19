@@ -1,11 +1,12 @@
+# Ewha Computer Graphics Lab Homepage Code
 Designed by Jisu Kim @GLAB
 
 [+] Please add updates here and modify the footer.html for the "Last updated date".
 
 ------------------------------------------------------------------------------------
-Update by  : Jisu
-Update Date: 2020-02-04
-Update Note:
+* Update by  : Jisu
+* Update Date: 2020-02-04
+* Update Note:
 
 	Footer and header has been separated as independent html files.
 
@@ -16,9 +17,9 @@ Update Note:
 	** sidebar is not separated yet
 
 ------------------------------------------------------------------------------------
-Update by  : Jisu
-Update Date: 2020-02-03
-Update Note:
+* Update by  : Jisu
+* Update Date: 2020-02-03
+* Update Note:
 
 	News Slider reference: https://code-boxx.com/responsive-pure-css-text-slider
 
